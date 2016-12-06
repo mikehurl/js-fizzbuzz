@@ -31,4 +31,9 @@ describe("Fizzbuzz", function() {
     expect(fizzbuzz.isDivisibleBy(3, 3)).toEqual (true);
   })
 
+  it("should know when a number cannot be divided by another number", function() {
+    expect(fizzbuzz.isDivisibleBy(5,3)).toEqual (false);
+
+  })
+
 });
