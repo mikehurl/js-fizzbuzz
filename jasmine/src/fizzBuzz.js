@@ -5,4 +5,4 @@ Fizzbuzz.prototype.isDivisibleByThree = function(number) { return number % 3 == 
 
 Fizzbuzz.prototype.isDivisibleByFive = function(number) { return number % 5 == 0; }
 
-Fizzbuzz.prototype.isDivisibleByFifteen = function(number) { return true; }
+Fizzbuzz.prototype.isDivisibleByThreeAndFive = function(number) { return number % 15 == 0; }

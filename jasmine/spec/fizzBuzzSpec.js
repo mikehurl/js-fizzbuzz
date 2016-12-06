@@ -19,8 +19,12 @@ describe("Fizzbuzz", function() {
 
   })
 
-  it("knows when a number is divisible by 15", function() {
-    expect(fizzbuzz.isDivisibleByFifteen(15)).toEqual (true);
+  it("knows when a number is divisible by both 3 and 5", function() {
+    expect(fizzbuzz.isDivisibleByThreeAndFive(15)).toEqual (true);
   })
-  
+
+  it("Knows when a number is not divisible by both 3 and 5", function() {
+    expect(fizzbuzz.isDivisibleByThreeAndFive(12)).toEqual (false);
+  })
+
 });
