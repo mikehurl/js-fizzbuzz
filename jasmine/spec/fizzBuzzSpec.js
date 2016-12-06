@@ -27,4 +27,8 @@ describe("Fizzbuzz", function() {
     expect(fizzbuzz.isDivisibleByThreeAndFive(12)).toEqual (false);
   })
 
+  it("should know when one number can be divided by another", function() {
+    expect(fizzbuzz.isDivisibleBy(3, 3)).toEqual (true);
+  })
+
 });
