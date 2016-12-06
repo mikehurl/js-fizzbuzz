@@ -9,4 +9,10 @@ isDivisibleByThreeAndFive = function(number) { return isDivisibleBy(number,15); 
 
 isDivisibleBy = function(number, divisor) { return number % divisor == 0; }
 
-fizzbuzz = function(number) { return 'fizz'; }
+fizzbuzz = function(number) {
+  if (isDivisibleByThree(number)) {
+    return 'fizz'
+      } else {
+    return 'buzz'
+      }
+  ; }

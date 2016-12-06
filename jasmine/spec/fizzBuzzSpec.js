@@ -38,4 +38,8 @@ describe("Fizzbuzz", function() {
     expect(fizzbuzz(3)).toEqual ('fizz')
   })
 
+  it("should return 'buzz' when passed a number divisible only by 5", function() {
+    expect(fizzbuzz(5)).toEqual ('buzz')
+    })
+
 });
