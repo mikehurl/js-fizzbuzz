@@ -19,4 +19,8 @@ describe("Fizzbuzz", function() {
 
   })
 
+  it("knows when a number is divisible by 15", function() {
+    expect(fizzbuzz.isDivisibleByFifteen(15)).toEqual (true);
+  })
+  
 });
