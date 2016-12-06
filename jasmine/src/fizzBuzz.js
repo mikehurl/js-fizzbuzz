@@ -1,4 +1,4 @@
 function Fizzbuzz() {}
 
 
-Fizzbuzz.prototype.isDivisibleByThree = function(number) { return true; }
+Fizzbuzz.prototype.isDivisibleByThree = function(number) { return number % 3 == 0 }
