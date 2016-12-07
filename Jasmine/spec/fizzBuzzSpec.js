@@ -40,5 +40,13 @@ describe("Fizzbuzz", function() {
     expect(fizzbuzz(5)).toEqual ('Buzz');
   });
 
+  it("returns 'FizzBuzz' when passed a number that is divisible by 3 and 5", function() {
+    expect(fizzbuzz(15)).toEqual ('FizzBuzz');
+  });
+
+  it("returns the same number when passed a number that is not divisible by 3, 5 or 15", function() {
+    expect(fizzbuzz(7)).toEqual (7);
+  });
+
 
 });

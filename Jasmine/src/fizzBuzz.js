@@ -9,9 +9,13 @@ function Fizzbuzz() {}
   isDivisibleBy = function(number, divisor) { return number % divisor === 0; }
 
   fizzbuzz = function(number) {
-    if (isDivisibleByThree(number)) {
+    if (isDivisibleByThreeAndFive(number)) {
+      return 'FizzBuzz';
+    } else if (isDivisibleByThree(number)) {
       return 'Fizz';
-    } else {
+    } else if (isDivisiblebyFive(number)) {
       return 'Buzz';
+    } else {
+      return number;
     };
   }
