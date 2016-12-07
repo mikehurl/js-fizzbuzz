@@ -1,2 +1,2 @@
-JS version of fizzBuzz.
+JS version of Fizzbuzz.
 X
