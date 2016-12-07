@@ -10,4 +10,12 @@ describe("fizzBuzz", function() {
     expect(fizzBuzz.isDivisibleByThree(4)).toEqual (false);
   });
 
+  it("knows if a number is divisible by 5", function() {
+    expect(fizzBuzz.isDivisiblebyFive(5)).toEqual (true);
+  });
+
+  it("knows if a number is not divisible by 5", function() {
+    expect(fizzBuzz.isDivisiblebyFive(6)).toEqual (false);
+  });
+
 });
