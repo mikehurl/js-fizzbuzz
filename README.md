@@ -1,0 +1,1 @@
+JS version of fizzBuzz.
