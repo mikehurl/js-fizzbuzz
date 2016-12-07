@@ -32,5 +32,13 @@ describe("Fizzbuzz", function() {
     expect(isDivisibleBy(4, 3)).toEqual (false);
   });
 
+  it("returns 'Fizz' when passed a number that is divisible by 3", function() {
+    expect(fizzbuzz(3)).toEqual ('Fizz');
+  });
+  //
+  it("returns 'Buzz' when passed a number that is divisible by 5", function() {
+    expect(fizzbuzz(5)).toEqual ('Buzz');
+  });
+
 
 });
