@@ -10,5 +10,4 @@ describe("fizzBuzz", function() {
     expect(fizzBuzz.isDivisibleByThree(4)).toEqual (false);
   });
 
-  'new test here'
 });
