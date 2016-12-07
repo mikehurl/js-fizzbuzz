@@ -18,4 +18,12 @@ describe("fizzBuzz", function() {
     expect(fizzBuzz.isDivisiblebyFive(6)).toEqual (false);
   });
 
+  it("knows if a number is divisible by both 3 and 5", function() {
+    expect(fizzBuzz.isDivisibleByThreeAndFive(15)).toEqual (true);
+  });
+
+  it("knows if a number is not divisible by 3 or 5", function() {
+    expect(fizzBuzz.isDivisibleByThreeAndFive(16)).toEqual (false);
+  });
+
 });
