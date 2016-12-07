@@ -26,4 +26,12 @@ describe("fizzBuzz", function() {
     expect(fizzBuzz.isDivisibleByThreeAndFive(16)).toEqual (false);
   });
 
+  it("knows if a number is divisible by another number", function() {
+    expect(fizzBuzz.isDivisibleBy(3, 3)).toEqual (true);
+  });
+
+  it("knows if a number is not divisible by another number", function() {
+    expect(fizzBuzz.isDivisibleBy(4, 3)).toEqual (false);
+  });
+
 });
